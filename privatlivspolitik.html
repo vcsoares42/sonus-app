@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privatlivspolitik – Sonus</title>
+  <meta name="description" content="Privatlivspolitik for appen Sonus.">
+  <link rel="alternate" hreflang="pt-BR" href="https://vcsoares42.github.io/sonus-app/privacidade.html">
+  <link rel="alternate" hreflang="en" href="https://vcsoares42.github.io/sonus-app/privacy.html">
+  <link rel="alternate" hreflang="es" href="https://vcsoares42.github.io/sonus-app/privacidad.html">
+  <link rel="alternate" hreflang="fr" href="https://vcsoares42.github.io/sonus-app/confidentialite.html">
+  <link rel="alternate" hreflang="de" href="https://vcsoares42.github.io/sonus-app/datenschutz.html">
+  <link rel="alternate" hreflang="it" href="https://vcsoares42.github.io/sonus-app/informativa-privacy.html">
+  <link rel="alternate" hreflang="nl" href="https://vcsoares42.github.io/sonus-app/privacybeleid.html">
+  <link rel="alternate" hreflang="sv" href="https://vcsoares42.github.io/sonus-app/integritetspolicy.html">
+  <link rel="alternate" hreflang="da" href="https://vcsoares42.github.io/sonus-app/privatlivspolitik.html">
+  <link rel="alternate" hreflang="nb" href="https://vcsoares42.github.io/sonus-app/personvern.html">
+  <link rel="alternate" hreflang="ja" href="https://vcsoares42.github.io/sonus-app/privacy-ja.html">
+  <link rel="alternate" hreflang="ko" href="https://vcsoares42.github.io/sonus-app/privacy-ko.html">
+  <link rel="alternate" hreflang="zh-Hant" href="https://vcsoares42.github.io/sonus-app/privacy-zh-hant.html">
+  <link rel="alternate" hreflang="ar" href="https://vcsoares42.github.io/sonus-app/privacy-ar.html">
+  <style>
+    :root {
+      --fundo: #ffffff;
+      --texto: #111111;
+      --texto-suave: #3a3a3c;
+      --acento: #E07F00;
+      --acento-suave: rgba(255, 149, 0, 0.10);
+      --hairline: rgba(0, 0, 0, 0.12);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fundo: #0e0e12;
+        --texto: #f2f2f7;
+        --texto-suave: #b9b9c0;
+        --acento: #FF9F0A;
+        --acento-suave: rgba(255, 159, 10, 0.14);
+        --hairline: rgba(255, 255, 255, 0.16);
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--fundo);
+      color: var(--texto);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      padding: 48px 20px 80px;
+    }
+    main { max-width: 640px; margin: 0 auto; }
+    .idiomas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 28px;
+      font-size: 0.85rem;
+    }
+    .idiomas a, .idiomas .ativo {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--hairline);
+      color: var(--texto-suave);
+      text-decoration: none;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+    .idiomas a:hover { border-color: var(--acento); color: var(--acento); }
+    .idiomas .ativo {
+      border-color: var(--acento);
+      color: var(--acento);
+      background: var(--acento-suave);
+      font-weight: 600;
+    }
+    .idiomas .bandeira { font-size: 1rem; line-height: 1; }
+    .eyebrow {
+      color: var(--acento);
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 4px; letter-spacing: -0.01em; }
+    .atualizacao { color: var(--texto-suave); font-size: 0.9rem; margin-bottom: 32px; }
+    h2 {
+      font-size: 1.25rem;
+      margin: 36px 0 10px;
+      padding-top: 24px;
+      border-top: 1px solid var(--hairline);
+    }
+    p { margin-bottom: 14px; }
+    ul { margin: 0 0 14px; padding-inline-start: 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--acento); }
+    .contato {
+      margin-top: 40px;
+      padding: 18px 20px;
+      border: 1px solid var(--hairline);
+      border-radius: 12px;
+      color: var(--texto-suave);
+      font-size: 0.95rem;
+    }
+    footer {
+      max-width: 640px;
+      margin: 56px auto 0;
+      color: var(--texto-suave);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--hairline);
+      padding-top: 20px;
+    }
+    footer a { color: var(--texto-suave); }
+  </style>
+</head>
+<body>
+  <main>
+    <nav class="idiomas" aria-label="Sprog">
+      <a href="privacidade.html" hreflang="pt-BR" lang="pt-BR"><span class="bandeira">🇧🇷</span> Português</a>
+      <a href="privacy.html" hreflang="en" lang="en"><span class="bandeira">🇺🇸</span> English</a>
+      <a href="privacidad.html" hreflang="es" lang="es"><span class="bandeira">🇪🇸</span> Español</a>
+      <a href="confidentialite.html" hreflang="fr" lang="fr"><span class="bandeira">🇫🇷</span> Français</a>
+      <a href="datenschutz.html" hreflang="de" lang="de"><span class="bandeira">🇩🇪</span> Deutsch</a>
+      <a href="informativa-privacy.html" hreflang="it" lang="it"><span class="bandeira">🇮🇹</span> Italiano</a>
+      <a href="privacybeleid.html" hreflang="nl" lang="nl"><span class="bandeira">🇳🇱</span> Nederlands</a>
+      <a href="integritetspolicy.html" hreflang="sv" lang="sv"><span class="bandeira">🇸🇪</span> Svenska</a>
+      <span class="ativo"><span class="bandeira">🇩🇰</span> Dansk</span>
+      <a href="personvern.html" hreflang="nb" lang="nb"><span class="bandeira">🇳🇴</span> Norsk</a>
+      <a href="privacy-ja.html" hreflang="ja" lang="ja"><span class="bandeira">🇯🇵</span> 日本語</a>
+      <a href="privacy-ko.html" hreflang="ko" lang="ko"><span class="bandeira">🇰🇷</span> 한국어</a>
+      <a href="privacy-zh-hant.html" hreflang="zh-Hant" lang="zh-Hant"><span class="bandeira">🇹🇼</span> 繁體中文</a>
+      <a href="privacy-ar.html" hreflang="ar" lang="ar"><span class="bandeira">🇸🇦</span> العربية</a>
+    </nav>
+
+    <p class="eyebrow">Sonus</p>
+    <h1>Privatlivspolitik</h1>
+    <p class="atualizacao">Sidst opdateret: 29. september 2026</p>
+
+    <p>Hos <strong>Sonus</strong> sætter vi dit privatliv højt. Appen er lavet til
+    at fungere uden tilmelding og uden konti. Sonus har ingen egen server:
+    Lydene følger med i appen, og det, du indstiller, bliver på din enhed.
+    Denne politik forklarer, hvilke få data der alligevel forlader den, hvorfor,
+    og hvordan du bestemmer over dem.</p>
+
+    <h2>Hvem er ansvarlig</h2>
+    <p>Sonus er udviklet af Vinícius Soares, som er dataansvarlig for de data,
+    der er beskrevet her. Har du spørgsmål eller anmodninger om privatliv, kan
+    du skrive til
+    <a href="mailto:vcsoares42@gmail.com">vcsoares42@gmail.com</a>.</p>
+
+    <h2>Hvad vi indsamler</h2>
+    <p>Appen beder ikke om tilmelding, e-mail, navn, telefonnummer, lokalitet
+    eller økonomiske oplysninger, bruger ikke mikrofonen og viser ingen reklamer.
+    For at forstå, hvordan appen bruges, og for at forbedre den indsamler vi,
+    men kun hvis deling af brugsdata er slået til, <strong>brugsdata</strong>:
+    hvilke skærme der blev åbnet, hvilke lyde og mix der blev afspillet og hvor
+    længe, hvordan sovetimeren blev indstillet, om påmindelsen om sengetid er
+    slået til, om appen blev åbnet fra widgetten eller den låste skærm, appens
+    sprog og version, iOS-versionen og enhedsmodellen samt om et abonnement
+    blev vist, påbegyndt eller gennemført.</p>
+    <p>Disse data er kun knyttet til et <strong>tilfældigt id, der genereres på
+    din enhed</strong>, første gang deling af brugsdata slås til, og som ikke har
+    nogen forbindelse til dit navn, din Apple-konto, din e-mail eller
+    reklame-id'et i iOS. Fordi dataene er knyttet til dette id, betragtes de
+    efter loven som pseudonymiserede personoplysninger og ikke som anonyme data.
+    Når disse data modtages, bruger analysetjenesten forbindelsens IP-adresse
+    til at anslå, i hvilket land og hvilken region appen bruges, og kasserer den derefter: IP-adressen gemmes ikke. Vi indsamler ikke din præcise lokalitet. Vi optager ikke din skærm, sporer dig ikke på
+    tværs af apps og sælger ikke disse data.</p>
+
+    <h2>Dit valg vedrørende brugsdata</h2>
+    <p>I Det Europæiske Økonomiske Samarbejdsområde, Det Forenede Kongerige og
+    Schweiz indsamles der intet, og der oprettes intet id, før du trykker på
+    <strong>Tillad</strong> ved det spørgsmål, Sonus viser, første gang appen
+    åbnes. I andre lande er deling af brugsdata slået til som standard.</p>
+    <p>Uanset hvor du bor, kan du til enhver tid slå det fra eller til under
+    <strong>Indstillinger ▸ Privatliv ▸ Del brugsdata</strong>. Appen fungerer
+    fortsat normalt, når det er slået fra. Når du slår det fra, stopper
+    indsamlingen fra det øjeblik; det påvirker ikke det, der allerede er
+    indsamlet, og som du kan bede os om at slette.</p>
+
+    <h2>Annoncemåling</h2>
+    <p>Kun hvis deling af brugsdata er slået til, beder appen Apples
+    AdServices-framework om et attributionstoken og sender det til RevenueCat,
+    som bruger det til at spørge Apple, om appen blev installeret fra en Apple
+    Ads-kampagne, og i så fald hvilken kampagne, annoncegruppe og hvilket
+    søgeord. Det fortæller os, hvilke annoncer der virker. Det bruger ikke
+    reklame-id'et i iOS og sporer dig ikke på tværs af apps eller websteder.</p>
+    <p>Også kun hvis deling af brugsdata er slået til, bruger appen Googles
+    <strong>Firebase Analytics</strong> til at registrere, at den blev
+    installeret og åbnet, sammen med enhedsmodel, iOS-version, appversion og
+    sprog, knyttet til et tilfældigt id, som Firebase opretter på enheden.
+    RevenueCat videresender hændelser om gratis prøveperioder og abonnementer
+    til Google under samme id. Google Ads bruger det til at fortælle os, hvilke
+    Google-annoncekampagner der førte til installationer og abonnementer. Det
+    bruger ikke reklame-id'et i iOS, og dataene bruges ikke til at vise dig
+    personaliserede reklamer. Når du slår deling fra, stopper det, og id'et
+    slettes fra enheden.</p>
+
+    <h2>Data, der kun gemmes på din enhed</h2>
+    <p>Visse oplysninger gemmes <strong>kun på din enhed</strong>, så appen
+    kan fungere, og de forlader den aldrig:</p>
+    <ul>
+      <li>de mix, du har gemt, med deres navn, lyde og lydstyrke for hvert lag;</li>
+      <li>dine indstillinger for sovetimeren og tidspunktet for påmindelsen om sengetid;</li>
+      <li>dine præferencer for udseende, genoptagelse af lyden, når appen åbnes,
+      og deling af brugsdata;</li>
+      <li>det, der afspilles lige nu, som deles med widgetten på hjemmeskærmen
+      på selve enheden.</li>
+    </ul>
+    <p>Når du sletter appen, slettes disse oplysninger sammen med den.</p>
+
+    <h2>Meddelelser</h2>
+    <p>Påmindelsen om sengetid bruger lokale meddelelser, som planlægges på
+    selve enheden. Der sendes ingen oplysninger til servere i den forbindelse.</p>
+
+    <h2>Widget, låst skærm og Siri</h2>
+    <p>Styringen af afspilningen i widgetten, på den låste skærm og via Siri-genveje
+    foregår udelukkende på enheden, uden internetadgang.</p>
+
+    <h2>Abonnementer og betalinger</h2>
+    <p>Sonus Pro sælges udelukkende af <strong>Apple</strong> via App
+    Store. Vi har ingen adgang til dine betalingsoplysninger. Administration og
+    annullering af abonnementer sker i indstillingerne for din Apple-konto, og
+    behandlingen af disse data er underlagt
+    <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apples
+    privatlivspolitik</a>. For at validere købet behandles dets status (aktiv,
+    i gratis prøveperiode, annulleret, livstid) af tjenesten RevenueCat,
+    knyttet til et tilfældigt id, som RevenueCat opretter på enheden. Denne
+    behandling er nødvendig for at låse op for det, du har købt, og sker også,
+    når deling af brugsdata er slået fra. Kun hvis deling af brugsdata er slået
+    til, videresender RevenueCat desuden abonnementshændelser, f.eks.
+    fornyelser og annulleringer, til PostHog under brugsdata-id'et og
+    hændelser om gratis prøveperioder og abonnementer til Google under
+    Firebase-id'et.</p>
+
+    <h2>Retsgrundlag</h2>
+    <ul>
+      <li>Brugsdata og annoncemåling: dit <strong>samtykke</strong>
+      i Det Europæiske Økonomiske Samarbejdsområde, Det Forenede Kongerige og
+      Schweiz; i andre lande vores <strong>legitime interesse</strong> i at
+      forstå, hvordan appen bruges, og i at forbedre den, som du til enhver tid
+      kan gøre indsigelse mod ved at slå deling fra.</li>
+      <li>Validering af køb: <strong>opfyldelse af kontrakten</strong>, når du
+      køber Sonus Pro.</li>
+    </ul>
+
+    <h2>Tjenester, vi bruger</h2>
+    <p>De data, der er beskrevet ovenfor, behandles af disse tjenester i henhold
+    til databehandleraftaler:</p>
+    <ul>
+      <li><a href="https://posthog.com/privacy" rel="noopener">PostHog</a> til
+      brugsstatistik, med servere i USA;</li>
+      <li><a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat</a>
+      til abonnementsstatus og attribution for Apple Ads, med servere i
+      USA;</li>
+      <li><a href="https://policies.google.com/privacy" rel="noopener">Google</a>
+      til måling af Google Ads via Firebase Analytics, med servere i USA og
+      andre lande. Ved annoncemåling er Google desuden selvstændig
+      dataansvarlig i henhold til sin egen politik.</li>
+    </ul>
+    <p>Overførsler af data fra Det Europæiske Økonomiske Samarbejdsområde, Det
+    Forenede Kongerige og Schweiz til USA sker på grundlag af
+    Europa-Kommissionens standardkontraktbestemmelser, som indgår i disse
+    aftaler, og for Googles vedkommende desuden på EU–U.S. Data Privacy
+    Framework. Vi sælger ingen data til tredjeparter og bruger dem ikke til at
+    vise dig personaliserede reklamer.</p>
+
+    <h2>Hvor længe vi opbevarer data</h2>
+    <p>Brugsdata opbevares i op til 25 måneder og slettes derefter. Data til
+    annoncemåling opbevares af Google i op til 14 måneder.
+    Abonnementsstatus opbevares af RevenueCat, så længe det er nødvendigt for at
+    levere og validere dit køb og for at overholde lovkrav
+    til bogføring.</p>
+
+    <h2>Dine rettigheder</h2>
+    <p>Afhængigt af hvor du bor, herunder efter EU's databeskyttelsesforordning
+    (GDPR), UK GDPR og Brasiliens LGPD, har du ret til indsigt i dine data, til
+    at få dem berigtiget, til at få dem slettet, til at få behandlingen af dem
+    begrænset eller gøre indsigelse mod den, til at modtage dem i et
+    overførbart format og til når som helst at trække dit samtykke tilbage,
+    uden at det berører behandling, der er sket forinden. Da vi ikke ved, hvem
+    du er, kan vi kun finde dine brugsdata via deres id: Du kan se det under
+    <strong>Indstillinger ▸ Privatliv</strong> og medsende det i din anmodning
+    til <a href="mailto:vcsoares42@gmail.com">vcsoares42@gmail.com</a>.
+    Vi svarer inden for en måned. Du har også ret til at indgive en klage til
+    databeskyttelsesmyndigheden i dit land.</p>
+    <p>Sonus træffer ingen automatiske afgørelser om dig, som har retsvirkning
+    eller på tilsvarende vis påvirker dig betydeligt.</p>
+
+    <h2>Ændringer af denne politik</h2>
+    <p>Hvis denne politik ændres, bliver den nye version offentliggjort på denne
+    side med opdateringsdatoen øverst. Hvis en ændring påvirker, hvordan
+    brugsdata bruges, vil appen bede om dit samtykke igen, hvor loven kræver
+    det.</p>
+
+    <div class="contato">
+      <strong>Sonus</strong> – søvnlyde og støj til iPhone.
+    </div>
+  </main>
+
+  <footer>
+    <a href="index.html">Forside</a> · © Vinícius Soares
+  </footer>
+</body>
+</html>
