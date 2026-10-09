@@ -133,7 +133,7 @@
 
     <p class="eyebrow">Sonus</p>
     <h1>Politique de confidentialité</h1>
-    <p class="atualizacao">Dernière mise à jour : 30 septembre 2026</p>
+    <p class="atualizacao">Dernière mise à jour : 9 octobre 2026</p>
 
     <p>Chez <strong>Sonus</strong>, nous attachons de l’importance à votre vie
     privée. Cette app a été conçue pour fonctionner sans inscription et sans
@@ -167,13 +167,14 @@
     qu’elles sont associées à cet identifiant, la loi les considère comme des
     données personnelles pseudonymisées, et non comme des données anonymes. À
     la réception de ces données, le service d’analyse utilise l’adresse IP de
-    la connexion pour estimer le pays et la région d’utilisation, puis la supprime : l’adresse IP n’est pas conservée. Nous ne collectons pas votre position précise. Nous n’enregistrons pas votre écran,
-    ne vous suivons pas d’une app à l’autre et ne vendons pas ces données.</p>
+    la connexion pour estimer le pays et la région d’utilisation, puis la supprime : l’adresse IP n’est pas conservée. Nous ne collectons pas votre position précise. Nous n’enregistrons pas votre écran
+    et ne vendons pas ces données. Les données d’utilisation ne servent pas à
+    vous suivre d’une app à l’autre.</p>
 
     <h2>Votre choix concernant les données d’utilisation</h2>
     <p>Dans l’Espace économique européen, au Royaume-Uni et en Suisse, rien
     n’est collecté et aucun identifiant n’est créé tant que vous n’avez pas
-    touché <strong>Autoriser</strong> en réponse à la question que Sonus affiche
+    touché <strong>Partager des données d’utilisation</strong> en réponse à la question que Sonus affiche
     à sa première ouverture. Dans les autres pays, le partage des données
     d’utilisation est activé par défaut.</p>
     <p>Partout, vous pouvez le désactiver ou l’activer à tout moment dans
@@ -192,17 +193,31 @@
     quelles annonces fonctionnent. Ce processus n’utilise pas l’identifiant
     publicitaire d’iOS et ne vous suit pas d’une app ou d’un site web à
     l’autre.</p>
-    <p>Également uniquement si le partage des données d’utilisation est activé, l’app
-    utilise <strong>Firebase Analytics</strong>, de Google, pour enregistrer
-    qu’elle a été installée et ouverte, avec le modèle de l’appareil, la
-    version d’iOS, la version de l’app et la langue, associés à un identifiant
-    aléatoire que Firebase crée sur l’appareil. RevenueCat transmet à Google
-    les événements d’essai gratuit et d’abonnement sous ce même identifiant.
-    Google Ads s’en sert pour nous indiquer quelles campagnes publicitaires
-    Google ont conduit à des installations et à des abonnements. Ce processus
-    n’utilise pas l’identifiant publicitaire d’iOS, et les données ne servent
-    pas à vous montrer des publicités personnalisées. Désactiver le partage y
-    met fin et supprime l’identifiant de l’appareil.</p>
+    <p>Pour mesurer nos campagnes Google Ads, Sonus vous demande l’autorisation
+    de vous suivre via la fenêtre iOS <strong>App Tracking Transparency</strong>
+    (dans l’Espace économique européen, au Royaume-Uni et en Suisse, uniquement
+    après que vous avez choisi de partager les données d’utilisation).
+    Uniquement si vous touchez <strong>Autoriser</strong>, l’app utilise
+    <strong>Firebase Analytics</strong>, de Google, pour enregistrer qu’elle a
+    été installée et ouverte, ainsi que le début d’un essai gratuit ou un
+    achat, avec la formule et le prix, le modèle de l’appareil, la version
+    d’iOS, la version de l’app et la langue. Ces données sont associées à un
+    identifiant aléatoire que Firebase crée sur l’appareil et à l’identifiant
+    publicitaire d’iOS. RevenueCat transmet à Google les événements d’essai
+    gratuit et d’abonnement sous ce même identifiant Firebase. Google Ads s’en
+    sert pour nous indiquer quelles campagnes publicitaires Google ont conduit
+    à des installations et à des abonnements ; les données ne servent pas à
+    vous montrer des publicités personnalisées. Si vous touchez
+    <strong>Demander à l’app de ne pas me suivre</strong>, Firebase n’est
+    jamais démarré et rien n’est envoyé à Google. Vous pouvez modifier votre
+    réponse à tout moment sur l’iPhone dans <strong>Réglages ▸
+    Confidentialité et sécurité ▸ Suivi</strong> ; la désactivation y met fin
+    et supprime l’identifiant Firebase de l’appareil.</p>
+    <p>Pour tout le monde, quelle que soit la réponse, l’app utilise
+    <strong>SKAdNetwork</strong>, d’Apple : Apple indique aux réseaux
+    publicitaires comme Google, de manière agrégée et sans vous identifier ni
+    identifier votre appareil, si une installation issue de leur publicité a
+    conduit à un essai gratuit ou à un achat.</p>
 
     <h2>Données stockées uniquement sur votre appareil</h2>
     <p>Certaines informations sont enregistrées <strong>uniquement sur votre
@@ -245,17 +260,20 @@
     Uniquement si le partage des données d’utilisation est activé, RevenueCat
     transmet également à PostHog les événements d’abonnement, comme les
     renouvellements et les résiliations, sous l’identifiant des données
-    d’utilisation, ainsi qu’à Google les événements d’essai gratuit et
-    d’abonnement sous l’identifiant Firebase.</p>
+    d’utilisation. Uniquement si vous avez autorisé le suivi, il transmet aussi
+    à Google les événements d’essai gratuit et d’abonnement sous l’identifiant
+    Firebase.</p>
 
     <h2>Bases légales</h2>
     <ul>
-      <li>Données d’utilisation et mesure publicitaire : votre
+      <li>Données d’utilisation et attribution Apple Ads : votre
       <strong>consentement</strong> dans l’Espace économique européen, au
       Royaume-Uni et en Suisse ; dans les autres pays, notre
       <strong>intérêt légitime</strong> à comprendre comment l’app est utilisée
       et à l’améliorer, auquel vous pouvez vous opposer à tout moment en
       désactivant le partage.</li>
+      <li>Mesure Google Ads : votre <strong>consentement</strong>, donné via
+      la fenêtre App Tracking Transparency, partout.</li>
       <li>Validation des achats : l’<strong>exécution du contrat</strong>
       lorsque vous achetez Sonus Pro.</li>
     </ul>

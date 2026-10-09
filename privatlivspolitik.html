@@ -133,7 +133,7 @@
 
     <p class="eyebrow">Sonus</p>
     <h1>Privatlivspolitik</h1>
-    <p class="atualizacao">Sidst opdateret: 30. september 2026</p>
+    <p class="atualizacao">Sidst opdateret: 9. oktober 2026</p>
 
     <p>Hos <strong>Sonus</strong> sætter vi dit privatliv højt. Appen er lavet til
     at fungere uden tilmelding og uden konti. Sonus har ingen egen server:
@@ -163,13 +163,13 @@
     reklame-id'et i iOS. Fordi dataene er knyttet til dette id, betragtes de
     efter loven som pseudonymiserede personoplysninger og ikke som anonyme data.
     Når disse data modtages, bruger analysetjenesten forbindelsens IP-adresse
-    til at anslå, i hvilket land og hvilken region appen bruges, og kasserer den derefter: IP-adressen gemmes ikke. Vi indsamler ikke din præcise lokalitet. Vi optager ikke din skærm, sporer dig ikke på
-    tværs af apps og sælger ikke disse data.</p>
+    til at anslå, i hvilket land og hvilken region appen bruges, og kasserer den derefter: IP-adressen gemmes ikke. Vi indsamler ikke din præcise lokalitet. Vi optager ikke din skærm og sælger ikke disse data. Brugsdata bruges
+    ikke til at spore dig på tværs af apps.</p>
 
     <h2>Dit valg vedrørende brugsdata</h2>
     <p>I Det Europæiske Økonomiske Samarbejdsområde, Det Forenede Kongerige og
     Schweiz indsamles der intet, og der oprettes intet id, før du trykker på
-    <strong>Tillad</strong> ved det spørgsmål, Sonus viser, første gang appen
+    <strong>Del brugsdata</strong> ved det spørgsmål, Sonus viser, første gang appen
     åbnes. I andre lande er deling af brugsdata slået til som standard.</p>
     <p>Uanset hvor du bor, kan du til enhver tid slå det fra eller til under
     <strong>Indstillinger ▸ Privatliv ▸ Del brugsdata</strong>. Appen fungerer
@@ -184,16 +184,30 @@
     Ads-kampagne, og i så fald hvilken kampagne, annoncegruppe og hvilket
     søgeord. Det fortæller os, hvilke annoncer der virker. Det bruger ikke
     reklame-id'et i iOS og sporer dig ikke på tværs af apps eller websteder.</p>
-    <p>Også kun hvis deling af brugsdata er slået til, bruger appen Googles
-    <strong>Firebase Analytics</strong> til at registrere, at den blev
-    installeret og åbnet, sammen med enhedsmodel, iOS-version, appversion og
-    sprog, knyttet til et tilfældigt id, som Firebase opretter på enheden.
-    RevenueCat videresender hændelser om gratis prøveperioder og abonnementer
-    til Google under samme id. Google Ads bruger det til at fortælle os, hvilke
-    Google-annoncekampagner der førte til installationer og abonnementer. Det
-    bruger ikke reklame-id'et i iOS, og dataene bruges ikke til at vise dig
-    personaliserede reklamer. Når du slår deling fra, stopper det, og id'et
-    slettes fra enheden.</p>
+    <p>For at måle vores Google Ads-kampagner beder Sonus om din tilladelse
+    til sporing via iOS-anmodningen <strong>App Tracking
+    Transparency</strong> (i Det Europæiske Økonomiske Samarbejdsområde, Det
+    Forenede Kongerige og Schweiz først efter, at du har valgt at dele
+    brugsdata). Kun hvis du trykker på <strong>Tillad</strong>, bruger appen
+    Googles <strong>Firebase Analytics</strong> til at registrere, at den
+    blev installeret og åbnet, og når en gratis prøveperiode starter eller
+    et køb foretages, sammen med abonnementstype og pris, enhedsmodel,
+    iOS-version, appversion og sprog. Det knyttes til et tilfældigt id, som
+    Firebase opretter på enheden, og til reklame-id'et i iOS. RevenueCat
+    videresender hændelser om gratis prøveperioder og abonnementer til
+    Google under samme Firebase-id. Google Ads bruger det til at fortælle
+    os, hvilke Google-annoncekampagner der førte til installationer og
+    abonnementer; dataene bruges ikke til at vise dig personaliserede
+    reklamer. Hvis du trykker på <strong>Bed app om ikke at spore</strong>,
+    startes Firebase aldrig, og der sendes intet til Google. Du kan til
+    enhver tid ændre dit svar på iPhonen under <strong>Indstillinger ▸
+    Anonymitet &amp; sikkerhed ▸ Sporing</strong>; når du slår det fra, stopper
+    det, og Firebase-id'et slettes fra enheden.</p>
+    <p>For alle, uanset svaret, bruger appen Apples
+    <strong>SKAdNetwork</strong>: Apple fortæller annoncenetværk som Google,
+    samlet og uden at identificere dig eller din enhed, om en installation,
+    der kom fra deres annonce, førte til en gratis prøveperiode eller et
+    køb.</p>
 
     <h2>Data, der kun gemmes på din enhed</h2>
     <p>Visse oplysninger gemmes <strong>kun på din enhed</strong>, så appen
@@ -228,17 +242,19 @@
     behandling er nødvendig for at låse op for det, du har købt, og sker også,
     når deling af brugsdata er slået fra. Kun hvis deling af brugsdata er slået
     til, videresender RevenueCat desuden abonnementshændelser, f.eks.
-    fornyelser og annulleringer, til PostHog under brugsdata-id'et og
-    hændelser om gratis prøveperioder og abonnementer til Google under
-    Firebase-id'et.</p>
+    fornyelser og annulleringer, til PostHog under brugsdata-id'et. Kun hvis
+    du har tilladt sporing, videresender den også hændelser om gratis
+    prøveperioder og abonnementer til Google under Firebase-id'et.</p>
 
     <h2>Retsgrundlag</h2>
     <ul>
-      <li>Brugsdata og annoncemåling: dit <strong>samtykke</strong>
+      <li>Brugsdata og Apple Ads-attribution: dit <strong>samtykke</strong>
       i Det Europæiske Økonomiske Samarbejdsområde, Det Forenede Kongerige og
       Schweiz; i andre lande vores <strong>legitime interesse</strong> i at
       forstå, hvordan appen bruges, og i at forbedre den, som du til enhver tid
       kan gøre indsigelse mod ved at slå deling fra.</li>
+      <li>Google Ads-måling: dit <strong>samtykke</strong>, givet via
+      App Tracking Transparency-anmodningen, overalt.</li>
       <li>Validering af køb: <strong>opfyldelse af kontrakten</strong>, når du
       køber Sonus Pro.</li>
     </ul>

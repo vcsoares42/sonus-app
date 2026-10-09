@@ -26,14 +26,14 @@
     personal data, not as anonymous data. When this data is received, the
     analytics service uses the connection's IP address to estimate the country and region of use and then
     discards it: the IP address is not stored. We do not collect your precise location. We do
-    not record your screen, do not track you across apps, and do not sell this
-    data.</p>
+    not record your screen and do not sell this data. Usage data is not used
+    to track you across apps.</p>
 
     <h2>Your choice about usage data</h2>
     <p>In the European Economic Area, the United Kingdom and Switzerland,
     nothing is collected and no identifier is created until you tap
-    <strong>Allow</strong> on the question Sonus shows the first time it
-    opens. In other countries, usage data sharing is on by default.</p>
+    <strong>Share Usage Data</strong> on the question Sonus shows the first
+    time it opens. In other countries, usage data sharing is on by default.</p>
     <p>Everywhere, you can turn it off or on at any time in <strong>Settings ▸
     Privacy ▸ Share Usage Data</strong>. The app keeps working normally with
     it off. Turning it off stops collection from that moment; it does not
@@ -46,16 +46,27 @@
     campaign, and if so which campaign, ad group and keyword. This tells us
     which ads work. It does not use the iOS advertising identifier and does
     not track you across apps or websites.</p>
-    <p>Also only if usage data sharing is on, the app uses Google's
-    <strong>Firebase Analytics</strong> to record that it was installed and
-    opened, with the device model, iOS version, app version and language,
-    tied to a random identifier that Firebase creates on the device.
-    RevenueCat forwards free trial and subscription events to Google under
-    that same identifier. Google Ads uses this to tell us which Google ad
-    campaigns led to installs and subscriptions. It does not use the iOS
-    advertising identifier, and the data is not used to show you
-    personalized ads. Turning sharing off stops this and deletes the
-    identifier from the device.</p>
+    <p>To measure our Google Ads campaigns, Sonus asks for your permission to
+    track through the iOS <strong>App Tracking Transparency</strong> prompt
+    (in the European Economic Area, the United Kingdom and Switzerland, only
+    after you have chosen to share usage data). Only if you tap
+    <strong>Allow</strong>, the app uses Google's <strong>Firebase
+    Analytics</strong> to record that it was installed and opened, and when a
+    free trial starts or a purchase is made, with the plan and price, the
+    device model, iOS version, app version and language. This is tied to a
+    random identifier that Firebase creates on the device and to the iOS
+    advertising identifier. RevenueCat forwards free trial and subscription
+    events to Google under that same Firebase identifier. Google Ads uses this
+    to tell us which Google ad campaigns led to installs and subscriptions;
+    the data is not used to show you personalized ads. If you tap <strong>Ask
+    App Not to Track</strong>, Firebase is never started and nothing is sent
+    to Google. You can change your answer at any time in the iPhone's
+    <strong>Settings ▸ Privacy &amp; Security ▸ Tracking</strong>; turning it
+    off stops this and deletes the Firebase identifier from the device.</p>
+    <p>For everyone, whatever the answer, the app uses Apple's
+    <strong>SKAdNetwork</strong>: Apple tells ad networks such as Google, in
+    aggregate and without identifying you or your device, whether an install
+    that came from their ad led to a free trial or a purchase.</p>
 
     <h2>Data stored only on your device</h2>
     <p>Some information is saved <strong>only on your device</strong> so the app
@@ -90,16 +101,19 @@
     is required to unlock what you bought and happens even with usage data
     sharing turned off. Only if usage data sharing is on, RevenueCat also
     forwards subscription events, such as renewals and cancellations, to
-    PostHog under the usage data identifier, and free trial and subscription
-    events to Google under the Firebase identifier.</p>
+    PostHog under the usage data identifier. Only if you allowed tracking,
+    it also forwards free trial and subscription events to Google under the
+    Firebase identifier.</p>
 
     <h2>Legal bases</h2>
     <ul>
-      <li>Usage data and ad measurement: your <strong>consent</strong>
+      <li>Usage data and Apple Ads attribution: your <strong>consent</strong>
       in the European Economic Area, the United Kingdom and Switzerland; in
       other countries, our <strong>legitimate interest</strong> in
       understanding how the app is used and improving it, which you can
       object to at any time by turning sharing off.</li>
+      <li>Google Ads measurement: your <strong>consent</strong>, given through
+      the App Tracking Transparency prompt, everywhere.</li>
       <li>Purchase validation: <strong>performance of the contract</strong>
       when you buy Sonus Pro.</li>
     </ul>
